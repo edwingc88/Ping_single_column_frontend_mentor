@@ -15,9 +15,7 @@
    <img id="logo" src="images/logo.svg" alt="logo-ping">
     <h1>We are launching <span>soon!</span> </h1>
     <p class="subscribe">Subscribe and get notified</p>
-
-    <form action="" class="formulario" id="formulario">
-
+    <form class="formulario" id="formulario">
       <div class="formulario__group" id="group__email">
         <div class="formulario__group-input" >
           <input type="email" class="formulario__input" id="email" name="email" required  placeholder="Your email address...">
@@ -25,9 +23,7 @@
         </div>   
         <button class="formulario__btn">Notify Me</button>
       </div>
-    
     </form>
-
     <img src="images/illustration-dashboard.png" alt="illustration-dashboard">
   </main>
 
@@ -44,7 +40,7 @@
     </p>
   </footer>
 
-  <script type="text/javascript">
+  <script>
       const formulario= document.getElementById('formulario');
       const inputs = document.querySelectorAll("#formulario input");
       const expresiones={ correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+\.[a-zA-Z0-9-.]+$/,}
